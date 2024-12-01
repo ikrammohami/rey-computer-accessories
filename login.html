@@ -1,0 +1,46 @@
+<span style="font-family:verdana,geneva,sans-serif"><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rey Computer Accessories</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>LOGIN</h1>
+      <fieldset><form>
+        <label>Email</label>
+        <input type="email" id="email" name="email" />
+        <label>Password</label>
+        <input type="password" id="password" name="password" />
+        <center><input type="button" value="LOGIN" onclick="toIndex()" />
+        </center>
+        
+
+        <script>
+        function toIndex() {
+              var email = document.getElementById('email').value;
+              var password = document.getElementById('password').value;
+
+    
+             if (email === "" || password === "") 
+             {
+                alert("Please fill email and passwords before login.");
+             } 
+             else 
+             {
+             alert("You successfully logged in. Don't forget to buy our product!");
+             window.location.href = "index.html"; 
+            }
+        }
+      </script>
+      </form></fieldset>
+    </div>
+    <p class="para-2">
+      <br><br><br><p>Not have an account?<a href="signup.html">   Sign Up Here</a></p>
+    </p>
+  </body>
+</html></span>

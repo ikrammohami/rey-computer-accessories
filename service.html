@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .product-gallery {
+            display: grid; /* Use grid layout */
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            grid-template-rows: repeat(2, auto); /* 2 rows */
+            gap: 50px; /* Space between grid items */
+            margin: 20px auto; /* Margin around the gallery */
+        }
+        
+        .product-gallery img {
+            
+            width: 50%; /* Make images responsive */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 15px; /* Optional: rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+        }
+    
+    
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rey Computer Accessories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" style="width:70px;" alt="Site logo">
+            </a>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Product</a></li>
+                <li><a href="location.html">Store location</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li class="user-icon"><a href="login.html"><i class="fas fa-user"></i></a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+           <center> <h1>Our Services for you:</h1> 
+           <table style="width:50%">
+            <tr>
+              <th>Jenis </th>
+              <th>Harga</th>
+            </tr>
+            <tr>
+              <td>Format Pc/Laptop</td>
+              <td>RM 50</td> 
+            </tr>
+            <tr>
+                <td>Installing software</td>
+                <td>RM 30</td> 
+            </tr>
+            <tr>
+                <td>Service printer</td>
+                <td>RM 20</td> 
+            </tr>
+            <tr>
+                <td>Service Pc/Laptop</td>
+                <td>RM 100</td> 
+            </tr>
+            <tr>
+                <td>Service hardware</td>
+                <td>RM 50</td> 
+            </tr>
+            
+            </tr>
+          </table> </center>
+          <br><br>
+
+          <fieldset><div class="product-gallery">
+            <img src="service1.jpg" alt="Service 1">
+            <img src="service2.jpg" alt="Service 2">
+            <img src="service3.jpg" alt="Service 3">
+            <img src="service4.jpg" alt="Service 4">
+            <img src="service5.jpg" alt="Service 5">
+            <img src="service6.jpg" alt="Service 6">
+        </div>
+        </fieldset>
+    </main>
+
+    <footer>
+        <p>&copy; Rey Computer Accessories</p>
+        Design: <a rel="nofollow" href="https://www.w3schools.com/" class="font-normal" target="parent">ikrammohami</a></p>
+    </footer>
+</body>
+</html>

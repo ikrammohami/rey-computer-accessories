@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #685252;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+
+h1 {
+    margin-bottom: 20px; /* Space below the title */
+}
+
+p {
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+.container {
+    display: flex; /*  flexbox for layout */
+    justify-content: space-between; /* Space between logo and user icon */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* padding to the container */
+}
+
+.logo {
+    display: flex; /* Flexbox for logo */
+    align-items: center; /* Center logo vertically */
+}
+
+.logo img {
+    margin-right: 10px; /* Space between logo image and text */
+}
+
+nav {
+    top: 50px;
+    flex-grow: 1; /*  nav to take remaining space */
+    text-align: center; /* Center the nav items */
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* default margin */
+    display: inline-block; /*  inline-block for centering */
+    
+}
+
+nav ul li {
+    display: inline; /* Display nav items inline */
+    margin: 0 15px; /* Space between nav items */
+    
+}
+
+nav ul li a {
+    top: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+.user-icon {
+    position: absolute; /* Position the user icon absolutely */
+    top: 50px; /* Adjust the top position */
+    right: 20px; /* Adjust the right position */
+}
+
+.user-icon a {
+    color: #fff; /* Icon color */
+    font-size: 1.5em; /* Adjust icon size */
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #685252; /* Header background color */
+    color: white; /* Header text color */
+}
+
+
+
+tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #685252;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
